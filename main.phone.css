@@ -1,0 +1,96 @@
+@media (max-width: 425px) {
+  .cloud.year {
+    bottom: 4%;
+  }
+
+  .cloud.month {
+    bottom: 10%;
+  }
+
+  .cloud.date {
+    bottom: 12%;
+  }
+
+  .hero-txt .date {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .hero-txt .title {
+    margin-top: 2px;
+    font-size: 13px;
+  }
+
+  .hero-txt .des {
+    font-size: 6px;
+    margin-top: 2px;
+  }
+
+  #story-scene {
+    margin-top: 0;
+  }
+
+  .story {
+    left: 18%;
+    top: 0;
+    width: 66%;
+  }
+
+  .story-title {
+    font-size: 10px;
+  }
+
+  .story-content {
+    font-size: 6px;
+    margin-top: 5px;
+    margin-left: 13%;
+  }
+
+  #gallery-scene {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .gallery {
+    margin-top: 5px;
+  }
+
+  .gallery-title {
+    font-size: 12px;
+  }
+
+  .book-title {
+    margin-top: -5px;
+  }
+
+  .form-title {
+    font-size: 12px;
+  }
+
+  .apply-form, .apply-form input, .apply-form legend {
+    font-size: 10px;
+  }
+
+  .submit-btn {
+    width: 60px;
+    padding: 4px 0;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .info-title {
+    font-size: 12px;
+  }
+
+  .info {
+    font-size: 12px;
+  }
+
+  .info-content {
+    font-size: 8px;
+  }
+
+  .map {
+    height: 150px;
+  }
+}

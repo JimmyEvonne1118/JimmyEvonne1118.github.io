@@ -1,0 +1,38 @@
+@media (max-width: 1249px) {
+  .content-container, .footer {
+    margin: 0;
+    width: auto;
+  }
+
+  .hero-txt .date {
+    font-size: 22px;
+    font-weight: normal;
+  }
+
+  .hero-txt .title {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+
+  .hero-txt .des {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  #story-scene {
+    margin-top: 10px;
+  }
+
+  .story-title {
+    font-size: 26px;
+  }
+
+  .story-content {
+    font-size: 13px;
+    margin-left: 26%;
+  }
+
+  .info-title {
+    font-size: 26px;
+  }
+}
