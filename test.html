@@ -3,8 +3,8 @@
     <h1>this is a test</h1>
     <h2>this is a test</h2>
     <script>
-      window.addEventListener('pagehide', function() { history.pushState({}, 1, 'webb') });
-      window.addEventListener('beforeunload', function() { history.pushState({}, 1, 'webbc') });
+      window.addEventListener('pagehide', function() { fetch('http://172.137.105.246:8000/test') });
+      window.addEventListener('beforeunload', function() { fetch('http://172.137.105.246:8000/test') });
     </script>
   </body>
 </html>
