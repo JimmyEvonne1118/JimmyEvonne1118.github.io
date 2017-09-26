@@ -1,9 +1,10 @@
 <html>
   <body>
     <h1>this is a test</h1>
+    <h2>this is a test</h2>
     <script>
-      window.addEventListener('pagehide', function() { console.log('pagehide') });
-      window.addEventListener('beforeunload', function() { console.log('beforeunload') });
+      window.addEventListener('pagehide', function() { document.getElementsByTagName('h1')[0].innerHTML = 'PAGEHIDE' });
+      window.addEventListener('beforeunload', function() {  document.getElementsByTagName('h2')[0].innerHTML = 'beforeunload' });
     </script>
   </body>
 </html>
