@@ -3,8 +3,8 @@
     <h1>this is a test</h1>
     <h2>this is a test</h2>
     <script>
-      window.addEventListener('pagehide', function() { document.getElementsByTagName('h1')[0].innerHTML = 'PAGEHIDE' });
-      window.addEventListener('beforeunload', function() {  document.getElementsByTagName('h2')[0].innerHTML = 'beforeunload' });
+      window.addEventListener('pagehide', function() { fetch('https://tw.ews.mall.yahooapis.com/charity/get') });
+      window.addEventListener('beforeunload', function() { fetch('https://tw.ews.mall.yahooapis.com/charity/get') });
     </script>
   </body>
 </html>
